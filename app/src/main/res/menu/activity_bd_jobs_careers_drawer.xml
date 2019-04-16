@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Category">
+
+        <menu>
+
+
+            <item
+                android:id="@+id/allBdJobs"
+                android:icon="@mipmap/jobs"
+                android:title="@string/allBdJobs" />
+            <item
+                android:id="@+id/bdJobsToday"
+                android:icon="@mipmap/jobs"
+                android:title="@string/bdJobsToday" />
+
+            <item
+                android:id="@+id/govtJobs"
+                android:icon="@mipmap/jobs"
+                android:title="@string/govtJob" />
+            <item
+                android:id="@+id/privateJobs"
+                android:icon="@mipmap/jobs"
+                android:title="@string/privateJobs" />
+            <item
+                android:id="@+id/bankJObs"
+                android:icon="@mipmap/jobs"
+                android:title="@string/bankJob" />
+            <item
+                android:id="@+id/allResult"
+                android:icon="@mipmap/jobs"
+                android:title="@string/allResult" />
+            <item
+                android:id="@+id/partTimeJobs"
+                android:icon="@mipmap/jobs"
+                android:title="@string/partTimeJobs" />
+            <item
+                android:id="@+id/weeklyJobs"
+                android:icon="@mipmap/jobs"
+                android:title="@string/weeklyJobs" />
+
+
+            <item
+                android:id="@+id/newPaperJobs"
+                android:icon="@mipmap/jobs"
+                android:title="@string/newPaperJobs" />
+
+            <item
+                android:id="@+id/careerTips"
+                android:icon="@mipmap/jobs"
+                android:title="@string/careerTips" />
+
+        </menu>
+    </item>
+
+
+    <item android:title="Notice">
+        <menu>
+            <item
+                android:id="@+id/admitCard"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/admitCard" />
+            <item
+                android:id="@+id/teleTalk"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/teleTalk" />
+
+            <item
+                android:id="@+id/suggestions"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/suggestions" />
+        </menu>
+    </item>
+
+    <item android:title="More Apps">
+        <menu>
+
+            <item
+                android:id="@+id/bdcircular"
+                android:icon="@drawable/ic_menu_send"
+                android:title="All Jobs Circular BD" />
+
+        </menu>
+    </item>
+
+
+</menu>
